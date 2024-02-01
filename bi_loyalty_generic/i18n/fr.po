@@ -1,0 +1,914 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* bi_loyalty_generic
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-10 05:54+0000\n"
+"PO-Revision-Date: 2022-10-10 11:46+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.1.1\n"
+
+#. module: bi_loyalty_generic
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.sale_category_loyalty_inherit
+msgid ""
+"<b style=\"color: blue\"> <span>1 Point(s)</span></b>\n"
+"\t\t\t\t\t\t\t<b style=\"margin: 0px 7px;\"><span>For a Purchase of every </span></b>"
+msgstr ""
+"<b style=\"color: blue\"> <span>1 Point(s)</span></b>\n"
+"\t\t\t\t\t\t\t<b style=\"margin: 0px 7px;\"><span>Pour une vente toutes les  </span></b>"
+
+#. module: bi_loyalty_generic
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.web_loyalty_setting_form_view
+msgid ""
+"<b style=\"color:blue\"> \n"
+"\t\t\t\t\t\t\t\t<span>1 Point(s) </span>\n"
+"\t\t\t\t\t\t\t\t</b>\n"
+"\t\t\t\t\t\t\t\t<b style=\"margin: 0px 7px;\">\n"
+"\t\t\t\t\t\t\t\t\t<span> For a Purchase of every</span>\n"
+"\t\t\t\t\t\t\t\t</b>"
+msgstr ""
+"<b style=\"color:blue\"> \n"
+"\t\t\t\t\t\t\t\t<span>1 Point(s) </span>\n"
+"\t\t\t\t\t\t\t\t</b>\n"
+"\t\t\t\t\t\t\t\t<b style=\"margin: 0px 7px;\">\n"
+"\t\t\t\t\t\t\t\t\t<span> Pour une vente toutes les</span>\n"
+"\t\t\t\t\t\t\t\t</b>"
+
+#. module: bi_loyalty_generic
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.pos_category_loyalty_inherit
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.web_category_loyalty_inherit
+msgid ""
+"<b style=\"color:blue\"> <span>1 Point(s)</span></b>\n"
+"\t\t\t\t\t\t<b style=\"margin: 0px 7px;\"><span>For a Purchase of every</span></b>"
+msgstr ""
+"<b style=\"color:blue\"> <span>1 Point(s)</span></b>\n"
+"\t\t\t\t\t\t<b style=\"margin: 0px 7px;\"><span>Pour une vente toutes les</span></b>"
+
+#. module: bi_loyalty_generic
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.web_loyalty_setting_form_view
+msgid ""
+"<b>\n"
+"\t\t\t\t\t\t\t\t\t\t\t<span>: 1 reward point =</span>\n"
+"\t\t\t\t\t\t\t\t\t\t</b>"
+msgstr ""
+"<b>\n"
+"<span> : 1 point de récompense =</span>\n"
+"</b>"
+
+#. module: bi_loyalty_generic
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.web_loyalty_setting_form_view
+msgid ""
+"<b>\n"
+"\t\t\t\t\t\t\t\t\t\t\t<span>Rule :  Points Between</span>\n"
+"\t\t\t\t\t\t\t\t\t\t</b>"
+msgstr ""
+"<b>\n"
+"<span>Règle : Points entre</span>\n"
+"</b>"
+
+#. module: bi_loyalty_generic
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.web_loyalty_setting_form_view
+msgid ""
+"<b>\n"
+"\t\t\t\t\t\t\t\t\t\t\t<span>and</span>\n"
+"\t\t\t\t\t\t\t\t\t\t</b>"
+msgstr ""
+"<b>\n"
+"<span>et</span>\n"
+"</b>"
+
+#. module: bi_loyalty_generic
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.view_res_partner_loyalty_form
+msgid "<span class=\"o_stat_text\">Loyalty Point</span>"
+msgstr "<span class=\"o_stat_text\">Point de fidélité</span>"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_loyalty_setting__active
+msgid "Active"
+msgstr "Actif"
+
+#. module: bi_loyalty_generic
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.loyalty_cart_lines_inherit
+msgid "Add one"
+msgstr "Ajoute un"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_res_config_settings__allow_to_loyalty
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_website__allow_to_loyalty
+msgid "Allow Loyalty Points"
+msgstr "Ajoute un"
+
+#. module: bi_loyalty_generic
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.view_website_loyalty_setting_tree_view
+msgid "Allow loyalty points for the website"
+msgstr "Autoriser les points de fidélité pour le site"
+
+#. module: bi_loyalty_generic
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.view_website_loyalty_setting_tree_view
+msgid "Allow to loyalty points"
+msgstr "Autoriser des points de fidélité"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_loyalty_history__multi_company_ids
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_loyalty_setting__multi_company_ids
+msgid "Allowed Companies"
+msgstr "Entreprises autorisées"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_loyalty_history__amount
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_loyalty_setting__loyality_amount
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_pos_category__amount_footer
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_product_category__amount_footer
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_product_public_category__amount_footer
+msgid "Amount"
+msgstr "Montant"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_pos_category__Minimum_amount
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_product_category__Minimum_amount
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_product_public_category__Minimum_amount
+msgid "Amount For loyalty Points"
+msgstr "Montant Pour les points de fidélité"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields.selection,name:bi_loyalty_generic.selection__all_loyalty_history__state__cancel
+msgid "Cancelled"
+msgstr "Annulé"
+
+#. module: bi_loyalty_generic
+#. openerp-web
+#: code:addons/bi_loyalty_generic/static/src/js/ProductScreen.js:0
+#, python-format
+msgid "Cannot Change Customer"
+msgstr "Impossible de changer de client"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_loyalty_history__check_state
+msgid "Check State"
+msgstr "Vérifier l'état"
+
+#. module: bi_loyalty_generic
+#. openerp-web
+#: code:addons/bi_loyalty_generic/static/src/xml/pos.xml:0
+#, python-format
+msgid "Close"
+msgstr "proche"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_loyalty_history__company_id
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_loyalty_setting__company_id
+msgid "Company"
+msgstr "Compagnie"
+
+#. module: bi_loyalty_generic
+#: model:ir.model,name:bi_loyalty_generic.model_res_config_settings
+msgid "Config Settings"
+msgstr "Paramètres de config"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields.selection,name:bi_loyalty_generic.selection__all_loyalty_history__state__done
+msgid "Confirmed"
+msgstr "Confirmé"
+
+#. module: bi_loyalty_generic
+#. openerp-web
+#: code:addons/bi_loyalty_generic/static/src/js/PaymentScreen.js:0
+#, python-format
+msgid "Connection Error"
+msgstr "Connection Error"
+
+#. module: bi_loyalty_generic
+#: model:ir.model,name:bi_loyalty_generic.model_res_partner
+msgid "Contact"
+msgstr "Contact"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_loyalty_history__create_uid
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_loyalty_setting__create_uid
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_redeem_rule__create_uid
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_loyalty_wizard_reedem__create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_loyalty_history__create_date
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_loyalty_setting__create_date
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_redeem_rule__create_date
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_loyalty_wizard_reedem__create_date
+msgid "Created on"
+msgstr "Créé sur"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields.selection,name:bi_loyalty_generic.selection__all_loyalty_history__transaction_type__credit
+msgid "Credit"
+msgstr "Le crédit"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_loyalty_history__currency_id
+msgid "Currency"
+msgstr "Devise"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_loyalty_history__partner_id
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.portal_loyalty_history
+msgid "Customer"
+msgstr "Client"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_loyalty_wizard_reedem__customer
+msgid "Customer Name:"
+msgstr "Nom du client :"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_loyalty_history__date
+msgid "Date"
+msgstr "Date"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields.selection,name:bi_loyalty_generic.selection__all_loyalty_history__transaction_type__debit
+msgid "Debit"
+msgstr "Débit"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_sale_order_line__discount_line
+msgid "Discount line"
+msgstr "Ligne de remise"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_loyalty_history__display_name
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_loyalty_setting__display_name
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_redeem_rule__display_name
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_loyalty_wizard_reedem__display_name
+msgid "Display Name"
+msgstr "Afficher un nom"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields.selection,name:bi_loyalty_generic.selection__all_loyalty_history__state__draft
+msgid "Draft"
+msgstr "Brouillon"
+
+#. module: bi_loyalty_generic
+#. openerp-web
+#: code:addons/bi_loyalty_generic/static/src/xml/pos.xml:0
+#, python-format
+msgid "Earned Loyalty Points:"
+msgstr "Points de fidélité gagnés"
+
+#. module: bi_loyalty_generic
+#. openerp-web
+#: code:addons/bi_loyalty_generic/static/src/js/LoyaltyButtonWidget.js:0
+#, python-format
+msgid "Empty Order"
+msgstr "Commande vide"
+
+#. module: bi_loyalty_generic
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.redeem_point_wizard_form
+msgid "Enter Point to Redeem"
+msgstr "Entrez le point à échanger"
+
+#. module: bi_loyalty_generic
+#. openerp-web
+#: code:addons/bi_loyalty_generic/static/src/xml/pos.xml:0
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.web_loaylty_info
+#, python-format
+msgid "Enter number of points to Redeem:"
+msgstr "Nombre de point à utiliser"
+
+#. module: bi_loyalty_generic
+#. openerp-web
+#: code:addons/bi_loyalty_generic/static/src/xml/pos.xml:0
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.web_loaylty_info
+#, python-format
+msgid "Enter points to redeem"
+msgstr "Saisissez des points à échanger"
+
+#. module: bi_loyalty_generic
+#. openerp-web
+#: code:addons/bi_loyalty_generic/static/src/js/PaymentScreen.js:0
+#, python-format
+msgid "Error: no internet connection."
+msgstr "Erreur : pas de connexion Internet."
+
+#. module: bi_loyalty_generic
+#: code:addons/bi_loyalty_generic/models/loyalty.py:0
+#, python-format
+msgid "Expiry Date should not be smaller than Issue Date. please change dates."
+msgstr ""
+"La date d'expiration ne doit pas être inférieure à la date d'émission. veuillez "
+"modifier les dates."
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_loyalty_setting__expiry_date
+msgid "Expiry date"
+msgstr "Date d'expiration"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_loyalty_setting__amount_footer
+msgid "Footer Amount"
+msgstr "Montant du pied de page"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_loyalty_history__generated_from
+msgid "Generated From"
+msgstr "Générée à partir de"
+
+#. module: bi_loyalty_generic
+#. openerp-web
+#: code:addons/bi_loyalty_generic/static/src/xml/pos.xml:0
+#, python-format
+msgid "Hello"
+msgstr "Bonjour"
+
+#. module: bi_loyalty_generic
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.web_loaylty_info
+msgid "Hello<span style=\"margin: 0px 6px;\" class=\"redeem_name\"/>"
+msgstr "Bonjour<span style=\"margin : 0px 6px ;\" class=\"redeem_name\"/>"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_loyalty_history__id
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_loyalty_setting__id
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_redeem_rule__id
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_loyalty_wizard_reedem__id
+msgid "ID"
+msgstr "IDENTIFIANT"
+
+#. module: bi_loyalty_generic
+#. openerp-web
+#: code:addons/bi_loyalty_generic/static/src/js/LoyaltyButtonWidget.js:0
+#, python-format
+msgid "Insufficient Points"
+msgstr "Points insuffisants"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_sale_order__is_from_website
+msgid "Is from Website"
+msgstr "Provient du site Web"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_loyalty_setting__issue_date
+msgid "Issue Date"
+msgstr "Date d'émission"
+
+#. module: bi_loyalty_generic
+#: model:ir.model,name:bi_loyalty_generic.model_account_move
+msgid "Journal Entry"
+msgstr "Entrée de journal"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_loyalty_history____last_update
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_loyalty_setting____last_update
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_redeem_rule____last_update
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_loyalty_wizard_reedem____last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_loyalty_history__write_uid
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_loyalty_setting__write_uid
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_redeem_rule__write_uid
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_loyalty_wizard_reedem__write_uid
+msgid "Last Updated by"
+msgstr "Dernière modification le"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_loyalty_history__write_date
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_loyalty_setting__write_date
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_redeem_rule__write_date
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_loyalty_wizard_reedem__write_date
+msgid "Last Updated on"
+msgstr "Dernière mise à jour le"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_res_partner__loyalty_amount
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_res_users__loyalty_amount
+msgid "Loyalty Amount"
+msgstr "Montant de fidélité"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_loyalty_setting__loyalty_basis_on
+msgid "Loyalty Basis On"
+msgstr "Base de fidélité sur"
+
+#. module: bi_loyalty_generic
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.web_loyalty_setting_form_view
+msgid "Loyalty Calculation"
+msgstr "Calcul de fidélité"
+
+#. module: bi_loyalty_generic
+#: model:ir.actions.act_window,name:bi_loyalty_generic.action_web_loyalty_setting
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_loyalty_history__loyalty_config_id
+#: model:ir.ui.menu,name:bi_loyalty_generic.menu_web_loyalty_setting
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.sale_category_loyalty_inherit
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.view_web_loyalty_setting_tree_view
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.web_loyalty_setting_form_view
+msgid "Loyalty Configuration"
+msgstr "Configuration des fidélités"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_account_bank_statement_line__genrated_points
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_account_bank_statement_line__loyalty_genrate
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_account_move__genrated_points
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_account_move__loyalty_genrate
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_account_payment__genrated_points
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_account_payment__loyalty_genrate
+msgid "Loyalty Genrated"
+msgstr "Fidélité générée"
+
+#. module: bi_loyalty_generic
+#: code:addons/bi_loyalty_generic/controllers/controllers.py:0
+#: model:ir.actions.act_window,name:bi_loyalty_generic.action_web_loyalty_history
+#: model:ir.ui.menu,name:bi_loyalty_generic.menu_web_loyalty_history
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.portal_loyalty_history
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.portal_web_loyalty_transaction
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.web_loyalty_history_form_view
+#, python-format
+msgid "Loyalty History"
+msgstr "Historique des difélités"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_redeem_rule__loyality_id
+msgid "Loyalty ID"
+msgstr "Identifiant de fidélité"
+
+#. module: bi_loyalty_generic
+#: model:ir.ui.menu,name:bi_loyalty_generic.menu_web_loyalty_id
+msgid "Loyalty Management"
+msgstr "Gestion de la fidélité"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_res_partner__loyalty_pts
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_res_users__loyalty_pts
+msgid "Loyalty Point"
+msgstr "Points de fidélité"
+
+#. module: bi_loyalty_generic
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.web_loaylty_info
+msgid "Loyalty Point(s) Total :"
+msgstr "Total de point(s) de fidélité"
+
+#. module: bi_loyalty_generic
+#. openerp-web
+#: code:addons/bi_loyalty_generic/static/src/xml/pos.xml:0
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_loyalty_history__points
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.view_res_partner_loyalty_form
+#, python-format
+msgid "Loyalty Points"
+msgstr "Point de fidélité"
+
+#. module: bi_loyalty_generic
+#. openerp-web
+#: code:addons/bi_loyalty_generic/static/src/xml/pos.xml:0
+#, python-format
+msgid "Loyalty Points. Total:"
+msgstr "Points de fidélité. Total:"
+
+#. module: bi_loyalty_generic
+#: model:ir.model,name:bi_loyalty_generic.model_loyalty_wizard_reedem
+msgid "Loyalty Redeem Wizard "
+msgstr "Assistant d'échange de fidélité"
+
+#. module: bi_loyalty_generic
+#. openerp-web
+#: code:addons/bi_loyalty_generic/static/src/xml/pos.xml:0
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.web_loaylty_info
+#, python-format
+msgid "Loyalty Redemption"
+msgstr "Réduction de fidélité"
+
+#. module: bi_loyalty_generic
+#: model:ir.actions.act_window,name:bi_loyalty_generic.redeem_point_wizard
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.redeem_point_wizard_form
+msgid "Loyalty Redemption"
+msgstr "Rachat de fidélité"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_res_partner__loyalty_history_ids
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_res_users__loyalty_history_ids
+msgid "Loyalty history"
+msgstr "Historique de fidélité"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_redeem_rule__max_amt
+msgid "Maximum Points"
+msgstr "Points maximum"
+
+#. module: bi_loyalty_generic
+#: code:addons/bi_loyalty_generic/models/loyalty.py:0
+#, python-format
+msgid "Minimum Point is not larger than Maximum Point"
+msgstr "Le point minimum n'est pas supérieur au point maximum"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_redeem_rule__min_amt
+msgid "Minimum Points"
+msgstr "Points minimaux"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_loyalty_setting__name
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_redeem_rule__name
+msgid "Name"
+msgstr "Nom"
+
+#. module: bi_loyalty_generic
+#. openerp-web
+#: code:addons/bi_loyalty_generic/static/src/js/LoyaltyButtonWidget.js:0
+#, python-format
+msgid "No Redemption Rule"
+msgstr "Pas de règle de remboursement"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_loyalty_wizard_reedem__order_credit_points
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_sale_order__order_credit_points
+msgid "Order Credit Points"
+msgstr "Commander des points de crédit"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_loyalty_wizard_reedem__order_redeem_points
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_sale_order__order_redeem_points
+msgid "Order Redeemed Points"
+msgstr "Commander des points échangés"
+
+#. module: bi_loyalty_generic
+#. openerp-web
+#: code:addons/bi_loyalty_generic/static/src/js/PaymentScreen.js:0
+#, python-format
+msgid "Order is not synced. Check your internet connection"
+msgstr "La commande n'est pas synchronisée. Vérifiez votre connection internet"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields.selection,name:bi_loyalty_generic.selection__all_loyalty_history__generated_from__pos
+msgid "POS"
+msgstr "POS"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_loyalty_history__pos_order_id
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.portal_loyalty_history
+msgid "POS Order"
+msgstr "Commande PdV"
+
+#. module: bi_loyalty_generic
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.web_loyalty_setting_form_view
+msgid "POS Product Categories (For POS)"
+msgstr "Catégories de produits POS (pour POS)"
+
+#. module: bi_loyalty_generic
+#. openerp-web
+#: code:addons/bi_loyalty_generic/static/src/js/LoyaltyButtonWidget.js:0
+#, python-format
+msgid "Please add Redemption Rule in loyalty configuration"
+msgstr "Veuillez ajouter une règle de rachat dans la configuration de fidélité"
+
+#. module: bi_loyalty_generic
+#: code:addons/bi_loyalty_generic/wizards/reedem_loyalty.py:0
+#, python-format
+msgid "Please enter valid loyalty points"
+msgstr "Veuillez entrer des points de fidélité valides"
+
+#. module: bi_loyalty_generic
+#. openerp-web
+#: code:addons/bi_loyalty_generic/static/src/js/LoyaltyButtonWidget.js:0
+#, python-format
+msgid "Please select some products"
+msgstr "Veuillez sélectionner certains produits"
+
+#. module: bi_loyalty_generic
+#: model:ir.model,name:bi_loyalty_generic.model_pos_category
+msgid "Point of Sale Category"
+msgstr "Catégorie du point de vente"
+
+#. module: bi_loyalty_generic
+#: model:ir.model,name:bi_loyalty_generic.model_pos_order
+msgid "Point of Sale Orders"
+msgstr "Commandes du point de vente"
+
+#. module: bi_loyalty_generic
+#. openerp-web
+#: code:addons/bi_loyalty_generic/static/src/xml/pos.xml:0
+#, python-format
+msgid "Point(s)"
+msgstr "Point(s)"
+
+#. module: bi_loyalty_generic
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.portal_loyalty_history
+msgid "Points"
+msgstr "Points"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_loyalty_setting__product_id
+msgid "Product"
+msgstr "Article"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields.selection,name:bi_loyalty_generic.selection__all_loyalty_setting__loyalty_basis_on__loyalty_category
+msgid "Product Categories"
+msgstr "catégories de produits"
+
+#. module: bi_loyalty_generic
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.web_loyalty_setting_form_view
+msgid "Product Categories (For Sale)"
+msgstr "Catégories de produits (à vendre)"
+
+#. module: bi_loyalty_generic
+#: model:ir.model,name:bi_loyalty_generic.model_product_category
+msgid "Product Category"
+msgstr "Catégorie d'article"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields.selection,name:bi_loyalty_generic.selection__all_loyalty_setting__loyalty_basis_on__amount
+msgid "Purchase Amount"
+msgstr "Montant de la commande"
+
+#. module: bi_loyalty_generic
+#. openerp-web
+#: code:addons/bi_loyalty_generic/static/src/xml/pos.xml:0
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.loyalty_form_inherit_sale
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.redeem_point_wizard_form
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.web_loaylty_info
+#, python-format
+msgid "Redeem"
+msgstr "Fidélité"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_sale_order_line__redeem_points
+msgid "Redeem Points"
+msgstr "Échanger des points"
+
+#. module: bi_loyalty_generic
+#. openerp-web
+#: code:addons/bi_loyalty_generic/static/src/js/LoyaltyButtonWidget.js:0
+#, python-format
+msgid "Redeem Product"
+msgstr "Utiliser le produit"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_sale_order__redeem_value
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_sale_order_line__redeem_value
+msgid "Redeem point value"
+msgstr "Utiliser la valeur des points"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_redeem_rule__reward_amt
+msgid "Redemption Amount"
+msgstr "Montant du remboursement"
+
+#. module: bi_loyalty_generic
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.web_loyalty_setting_form_view
+msgid "Redemption Computation"
+msgstr "Calcul du remboursement"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_loyalty_setting__redeem_ids
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.web_loyalty_setting_form_view
+msgid "Redemption Rule"
+msgstr "Règle de remboursement"
+
+#. module: bi_loyalty_generic
+#. openerp-web
+#: code:addons/bi_loyalty_generic/static/src/xml/pos.xml:0
+#, python-format
+msgid "Reedem Now"
+msgstr "Reduire"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_loyalty_wizard_reedem__redeem_point
+msgid "Reedemption Loyalty Point"
+msgstr "Échange de points de fidélité"
+
+#. module: bi_loyalty_generic
+#. openerp-web
+#: code:addons/bi_loyalty_generic/static/src/js/PaymentScreen.js:0
+#, python-format
+msgid "Remaining unsynced orders"
+msgstr "Commandes non synchronisées restantes"
+
+#. module: bi_loyalty_generic
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.loyalty_cart_lines_inherit
+msgid "Remove one"
+msgstr "Supprimer un"
+
+#. module: bi_loyalty_generic
+#: code:addons/bi_loyalty_generic/models/loyalty.py:0
+#, python-format
+msgid "Reward amount is not a zero or less than zero"
+msgstr "Le montant de la récompense n'est pas nul ou inférieur à zéro"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields.selection,name:bi_loyalty_generic.selection__all_loyalty_history__generated_from__sale
+msgid "Sale"
+msgstr "Vente"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_loyalty_history__order_id
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.portal_loyalty_history
+msgid "Sale Order"
+msgstr "Numéro de commande"
+
+#. module: bi_loyalty_generic
+#: model:ir.model,name:bi_loyalty_generic.model_sale_order
+msgid "Sales Order"
+msgstr "Bon de commande"
+
+#. module: bi_loyalty_generic
+#: model:ir.model,name:bi_loyalty_generic.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Ligne de bons de commande"
+
+#. module: bi_loyalty_generic
+#: model:ir.model,name:bi_loyalty_generic.model_delivery_carrier
+msgid "Shipping Methods"
+msgstr "Méthodes d'expédition"
+
+#. module: bi_loyalty_generic
+#. openerp-web
+#: code:addons/bi_loyalty_generic/static/src/js/PaymentScreen.js:0
+#, python-format
+msgid "Some, if not all, post-processing after syncing order failed."
+msgstr ""
+"Certains, sinon tous, les post-traitements après l'échec de la commande de "
+"synchronisation."
+
+#. module: bi_loyalty_generic
+#. openerp-web
+#: code:addons/bi_loyalty_generic/static/src/js/LoyaltyButtonWidget.js:0
+#, python-format
+msgid "Sorry, you already added the redeem product."
+msgstr "Désolé, vous avez déjà ajouté le produit d'échange."
+
+#. module: bi_loyalty_generic
+#. openerp-web
+#: code:addons/bi_loyalty_generic/static/src/js/LoyaltyButtonWidget.js:0
+#, python-format
+msgid "Sorry, you do not have sufficient loyalty points."
+msgstr "Désolé, vous n'avez pas assez de points de fidélité."
+
+#. module: bi_loyalty_generic
+#. openerp-web
+#: code:addons/bi_loyalty_generic/static/src/js/ProductScreen.js:0
+#, python-format
+msgid "Sorry, you redeemed product, please remove it before changing customer."
+msgstr ""
+"Désolé, vous avez utilisé le produit, veuillez le retirer avant de changer de client."
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_loyalty_history__state
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.portal_loyalty_history
+msgid "State"
+msgstr "Statut"
+
+#. module: bi_loyalty_generic
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.portal_loyalty_history
+msgid "There are currently no Loyalty History for your account."
+msgstr "Il n'y a actuellement aucun historique de fidélité pour votre compte."
+
+#. module: bi_loyalty_generic
+#. openerp-web
+#: code:addons/bi_loyalty_generic/static/src/js/PaymentScreen.js:0
+#, python-format
+msgid "There are unsynced orders. Do you want to sync these orders?"
+msgstr "Il y a des commandes non synchronisées. Voulez-vous synchroniser ces commandes ?"
+
+#. module: bi_loyalty_generic
+#. openerp-web
+#: code:addons/bi_loyalty_generic/static/src/xml/pos.xml:0
+#, python-format
+msgid "Total Loyalty Points:"
+msgstr "Points de fidélité totaux :"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_all_loyalty_history__transaction_type
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.portal_loyalty_history
+msgid "Transaction Type"
+msgstr "Type de transaction"
+
+#. module: bi_loyalty_generic
+#. openerp-web
+#: code:addons/bi_loyalty_generic/static/src/js/LoyaltyButtonWidget.js:0
+#, python-format
+msgid "Unknown customer"
+msgstr "Client inconnu"
+
+#. module: bi_loyalty_generic
+#: model:ir.model,name:bi_loyalty_generic.model_website
+#: model:ir.model.fields.selection,name:bi_loyalty_generic.selection__all_loyalty_history__generated_from__website
+msgid "Website"
+msgstr "Site web"
+
+#. module: bi_loyalty_generic
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.web_loyalty_setting_form_view
+msgid "Website Categories (For Website)"
+msgstr "Catégories de sites Web (pour le site Web)"
+
+#. module: bi_loyalty_generic
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.view_web_loyalty_history_tree_view
+msgid "Website Loyalty History"
+msgstr "Historique de fidélité du site Web"
+
+#. module: bi_loyalty_generic
+#: model:ir.model,name:bi_loyalty_generic.model_product_public_category
+msgid "Website Product Category"
+msgstr "Catégorie d'articles du site Web"
+
+#. module: bi_loyalty_generic
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.web_loyalty_setting_form_view
+msgid "Website Redeem Rule Form"
+msgstr "Formulaire de règle d'utilisation du site Web"
+
+#. module: bi_loyalty_generic
+#: code:addons/bi_loyalty_generic/models/loyalty.py:0
+#, python-format
+msgid ""
+"You can not apply two Loyalty Configuration within same date range please change dates."
+msgstr ""
+"Vous ne pouvez pas appliquer deux configurations de fidélité dans la même plage de "
+"dates, veuillez modifier les dates."
+
+#. module: bi_loyalty_generic
+#: code:addons/bi_loyalty_generic/models/loyalty.py:0
+#, python-format
+msgid "You can not create Redemption Rule with same points range."
+msgstr "Vous ne pouvez pas créer de règle d'échange avec la même plage de points."
+
+#. module: bi_loyalty_generic
+#: code:addons/bi_loyalty_generic/wizards/reedem_loyalty.py:0
+#, python-format
+msgid "You can not redeem more than loyalty points"
+msgstr "Vous ne pouvez pas échanger plus de points de fidélité"
+
+#. module: bi_loyalty_generic
+#: code:addons/bi_loyalty_generic/wizards/reedem_loyalty.py:0
+#, python-format
+msgid "You can not redeem more than one time"
+msgstr "Vous ne pouvez pas échanger plus d'une fois"
+
+#. module: bi_loyalty_generic
+#: code:addons/bi_loyalty_generic/wizards/reedem_loyalty.py:0
+#, python-format
+msgid "You can not redeem more than total amount"
+msgstr "Vous ne pouvez pas échanger plus que le montant total"
+
+#. module: bi_loyalty_generic
+#. openerp-web
+#: code:addons/bi_loyalty_generic/static/src/js/LoyaltyButtonWidget.js:0
+#, python-format
+msgid "You cannot redeem loyalty points. Select customer first."
+msgstr ""
+"Vous ne pouvez pas échanger de points de fidélité. Sélectionnez d'abord le client."
+
+#. module: bi_loyalty_generic
+#. openerp-web
+#: code:addons/bi_loyalty_generic/static/src/xml/pos.xml:0
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_loyalty_wizard_reedem__loyalty_balance
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_sale_order__loyalty_point_credit
+#, python-format
+msgid "Your Loyalty Balance:"
+msgstr "Votre montant de fidélité"
+
+#. module: bi_loyalty_generic
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.web_loaylty_info
+msgid "Your Loyalty Balance:<span style=\"margin: 0px 6px;\" class=\"redeem_total\"/>"
+msgstr ""
+"Votre montant de fidélité<span style=\"margin: 0px 6px;\" class=\"redeem_total\"/>"
+
+#. module: bi_loyalty_generic
+#: model:ir.model.fields,field_description:bi_loyalty_generic.field_loyalty_wizard_reedem__loyalty_point
+msgid "Your Loyalty Points (in point(s)):"
+msgstr "Vos Points Fidélité (en point(s)) :"
+
+#. module: bi_loyalty_generic
+#. openerp-web
+#: code:addons/bi_loyalty_generic/static/src/xml/pos.xml:0
+#, python-format
+msgid "Your Loyalty Points:"
+msgstr "Vos points de fidélité"
+
+#. module: bi_loyalty_generic
+#: model_terms:ir.ui.view,arch_db:bi_loyalty_generic.web_loaylty_info
+msgid ""
+"Your Loyalty Points:<span style=\"margin: 0px 6px;\" class=\"redeem_points\"/>Point(s)"
+msgstr ""
+"Vos points de fidélité :<span style=\"margin : 0px 6px ;\" class=\"redeem_points\"/"
+">Point(s)"
+
+#. module: bi_loyalty_generic
+#: model:ir.model,name:bi_loyalty_generic.model_all_loyalty_history
+msgid "all loyalty history"
+msgstr "tout l'historique de fidélité"
+
+#. module: bi_loyalty_generic
+#: model:ir.model,name:bi_loyalty_generic.model_all_loyalty_setting
+msgid "all loyalty setting"
+msgstr "tous les paramètres de fidélité"
+
+#. module: bi_loyalty_generic
+#: model:ir.model,name:bi_loyalty_generic.model_all_redeem_rule
+msgid "all redeem rule"
+msgstr "règle de rachat de tous"

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<template>
+
+    <t t-name="web.ribbon">
+        <div class="ribbon ribbon-top-right">
+            <span t-att-class="widget.className" t-att-title="widget.tooltip">
+                <t t-esc="widget.text"/>
+            </span>
+        </div>
+    </t>
+
+    <t t-name="OrderWidget" t-inherit="point_of_sale.OrderWidget" t-inherit-mode="extension" owl="1">
+        <xpath expr="//div[hasclass('order')]" position="replace">
+
+            <div class="order">
+                <t t-if="orderlinesArray.length === 0" >
+                    <div class='order-empty'>
+                        <i class='fa fa-shopping-cart' role="img" aria-label="Shopping cart"
+                           title="Shopping cart"/>
+                        <h1>This order is empty</h1>
+                    </div>
+                </t>
+                <t t-else="">
+                    <ul class="orderlines">
+                        <t t-foreach="orderlinesArray" t-as="orderline" t-key="orderline.id">
+                            <Orderline line="orderline" />
+                        </t>
+                    </ul>
+                    <OrderSummary total="state.total" tax="state.tax" />
+                </t>
+
+                <t t-if="env.pos.get_client() and loyalty_pts_final">
+                    <div class='loyalty-items' style="padding-bottom: 10px; padding-left: 15px;padding-right: 15px;">
+                        <b style="font-weight: bold; color: #0075AC;font-size: 20px;">
+                            + <span><t t-esc="loyalty_pts_final"/></span> Loyalty Points. Total Final:<span><t t-esc="temp_loyalty_point_for_final"/></span>
+                        </b>
+
+                    </div>
+                </t>
+            </div>
+        </xpath>
+    </t>
+
+
+    <t t-name="OrderReceipt" t-inherit="point_of_sale.OrderReceipt" t-inherit-mode="extension" owl="1">
+        <xpath expr="//div[hasclass('loyalty-show')]" position="replace">
+
+            <div class="loyalty-show">
+                <table class='receipt-change' style="min-width: 100%;">
+                    <t t-if="env.pos.get_client()">
+                        <tr>
+                            <td>Earned Loyalty Points:</td>
+                            <td class="pos-right-align"><t t-esc="props.order.get_total_loyalty_final()"/></td>
+                        </tr>
+                        <tr>
+                            <td>Total Loyalty Points:</td>
+                            <td class="pos-right-align"><t t-esc="env.pos.get_client().loyalty_pts"/></td>
+                        </tr>
+                    </t>
+                </table>
+            </div>
+        </xpath>
+    </t>
+
+    
+
+</template>
